@@ -21,6 +21,32 @@ align-items: center;
     justify-content: center;
 }
 .justify-between{
-    justify-content: space-around;
+    justify-content: space-between;
 }
-
+.bold{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.topleft{
+    flex-direction: column;
+}
+.text-blue{
+color: rgb(100, 100, 252);
+}
+.btn{
+    padding: 4px 12px;
+    border: 2px solid rgb(22, 54, 233);
+    color: white;
+    background-color: rgb(100, 100, 252);
+    border-radius: 10px;
+    cursor: pointer;
+}

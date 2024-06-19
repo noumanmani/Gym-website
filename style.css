@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -12,8 +13,22 @@
 .navbar li{
     display: flex;
     margin: 0px 12px ;
+    font-family: "Playwrite NO", 'cursive';
+     font-family: "Open Sans", sans-serif; 
 }
 .navbar{
     display: flex;
     height: 70px;
+}
+.topleft{
+    width: 50%;
+    height: 50vh;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+.section1{
+    height: 50vh;
+    
 }
