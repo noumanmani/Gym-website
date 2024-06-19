@@ -21,14 +21,19 @@
     height: 70px;
 }
 .topleft{
-    width: 50%;
+    width: 60%;
     height: 50vh;
 }
 .topright{
-    width: 50%;
+    width: 40%;
     height: 50vh;
+   background-color:rgb(165, 124, 42);
 }
 .section1{
     height: 50vh;
+    padding-top: 100px;
+    
     
 }
+
+
