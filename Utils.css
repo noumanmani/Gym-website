@@ -62,3 +62,59 @@ text-align: center;
 .section2{
     margin-top: 300px;
 }
+.padding{
+    padding-left: 160px;
+    padding-right: 100px;
+}
+.box1 {
+    margin: 12px 22px;
+    border: 0.6px solid black;
+    height: 300px;
+    width: 200px;
+    border-radius: 3px;
+
+
+
+}
+.box1 ul{
+    list-style: none;
+    margin-top: 65px;
+    font-size: 1rem;
+    row-gap: 15px;
+    display: flex;
+    gap: 10px;
+   align-items: center;
+    flex-direction: column;
+}
+.free{
+    padding-bottom: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+.free{
+    background-color:rgb(227, 166, 35) ;
+}
+.but{
+    padding: 5px;
+    margin-top:30px;
+    background-color: rgb(254, 141, 55);
+    cursor: pointer;
+    border-radius: 5px;
+}
+ .price{
+    height: 80vh;
+    width: 100vw;
+    margin-top: 65px;
+   
+
+ }
+ .price h1{
+    font-size: 3rem;
+ }
+ .price p{
+    font-size: 1.5rem;
+ }
