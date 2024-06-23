@@ -18,8 +18,14 @@
 }
 .navbar{
     display: flex;
-    height: 70px;
+    height: 70px;}
+.gym-image{
+width: 70vw;
 }
+.topleft{
+    width: 60%;
+}
+
 .topleft{
     width: 60%;
     height: 50vh;
@@ -35,7 +41,29 @@
 }
 .with{
     width: 100%;
-    height: 100%;
+    
 }
-
-
+.section3{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.gym-right{
+    height: 100vh;
+    width: 70vh;
+}
+.gym-right img{
+    height: 100vh;
+    width: 100vw;
+}
+.last-scetion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gym-left{
+    padding: 0 130px;
+}
+.last-scetion p{
+ 
+}

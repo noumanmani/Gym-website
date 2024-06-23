@@ -5,21 +5,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="Utils.css">
+	<link rel="stylesheet" href="nav.css">
 	<title>#11 landing page website by ||  Nouman Ashfaq</title>
 </head>
 <body class="overflow-hidden">
 	<div class="container max-auto ">
 		<header> 
-			<nav class="flex justify-center justify-between">
-				<div class=" flex items-center bold text-blue">Gym Fitness
-				</div>
-				<ul class="navbar flex items-center ">
-					<li> home</li>
-					<li> about us</li>
-					<li> contect</li>
-					<li> <button class="btn"> Jion Now</button></li>
+			<nav>
+				<ul class="side-bar">
+					<li onclick="hidesidebar()" > <a class="font" href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a> </li>
+					<li > <a href="google.com">AboutUs </a></li>
+					<li > <a href="https://www.youtube.com/watch?v=YMbjKthjgZM">pricing </a></li>
+					<li > <a href="https://www.google.com/search?client=firefox-b-d&q=google+translate">logout </a></li>
+					<li > <a href="#">signup </a></li>
+				</ul>
+				<ul>
+					<li> <a href="#">FitnessGym </a></li>
+					<li class="hideOnMobile" > <a href="#">AboutUs </a></li>
+					<li class="hideOnMobile" > <a href="#">pricing </a></li>
+					<li class="hideOnMobile" > <a href="#">sigIin </a></li>
+					<li class="hideOnMobile" > <a href="#">signUp </a></li>
+					<li class="menu-button"onclick="showSidebar()"> <a class="font" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a> </li>
 				</ul>
 			</nav>
+		
 			<hr>
 		</header>
 		<main class="min-h-screen ">  
@@ -86,36 +95,41 @@
 					</div>
 				</div>
 			</section>
-			<section>
-				<div class="gym-image">
+			<section class="scetion3">
+				<div class="last-scetion">
+
 					<div class="gym-left"> 
-<h4>
-	SWEAT-DRIPPING, HEART-PUMPING FUN.
-</h4>
-<h1 class="bold"> START YOUR
-	 WORKOUT</h1>
-	<p>
-		With over 5,000 exercises and 80+ workout classes in our database,
-		 F45 has an extensive selection of fun, fast-paced exercises that will keep 
-		 you motivated to do more, achieve more, and be more! But no need to feel 
-		 intimidated. This workout is for all ages and every body. And no two workouts
-		  are ever the same.
-	</p>
-	<button class="exr">Explore Our exercise</button>
+						<h4>
+							SWEAT-DRIPPING, HEART-PUMPING FUN.
+						</h4><h1 class="bold"> START YOUR
+							WORKOUT</h1>
+							<p>
+								With over 5,000 exercises and 80+ workout classes in our database,
+								 F45 has an extensive selection of fun, fast-paced exercises that will keep 
+								 you motivated to do more, achieve more, and be more! But no need to feel 
+								 intimidated. This workout is for all ages and every body. And no two workouts
+								  are ever the same.
+							</p>
+							<button class="exr">Explore Our exercise</button>
+						</div>
+						<div class="gym-right"> 
+							<img src="site/site.jpg">
+						</div>
+	
 					</div>
-					<div class="gym-right"> 
-						<img src="site/site.jpg">
-					</div>
 
-				</div>
-	 </section> 
-	 <footer>
-		<div class="copy"> © 1996-2024, fitness.com||Create by Nouman Ashfaq.||
-
-		</div>
-
-	 </footer>
+				</div> <!--last scction!-->
+          </section>  			
 		</main>
 	</div>
+	<script src="script.js"></script>
 </body>
 </html>
+
+
+<footer>
+	<div class="copy"> © 1996-2024, fitness.com||Create by Nouman Ashfaq.||
+
+	</div>
+
+ </footer>
